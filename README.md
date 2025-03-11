@@ -9,11 +9,14 @@ A Python application that converts spoken words into musical notes, creating MID
 ## Features
 
 - Voice input recognition using Google's Speech Recognition API
-- Audio recording and processing
-- MIDI file generation based on voice input
-- Multiple musical scales support
+- Audio recording and processing with advanced signal analysis
+- MIDI file generation with multiple musical scales and instruments
 - Comprehensive error handling and logging
-- Unit tests
+- Extensive test coverage
+- Real-time audio visualization
+- Multiple musical scales (Major, Minor, Pentatonic, Blues)
+- Various instrument support (Piano, Guitar, Violin, etc.)
+- Emotional word-to-note mapping
 
 ## Requirements
 
@@ -57,9 +60,14 @@ A Python application that converts spoken words into musical notes, creating MID
 ├── main.py            # Main application
 ├── requirements.txt   # Python dependencies
 ├── tests/            # Unit tests
+│   ├── test_audio_processor.py
+│   ├── test_music_generator.py
+│   ├── test_speech_recognizer.py
+│   └── test_utils.py
 └── output/           # Generated files
     ├── recordings/   # WAV recordings
-    └── midi/         # Generated MIDI files
+    ├── midi/        # Generated MIDI files
+    └── logs/        # Application logs
 ```
 
 ## Testing
@@ -68,6 +76,36 @@ Run the tests using pytest:
 ```bash
 pytest tests/
 ```
+
+## Advanced Features
+
+### Musical Scales
+- C Major
+- A Minor
+- Pentatonic
+- Chromatic
+- Blues
+
+### Instruments
+- Piano
+- Guitar
+- Violin
+- Flute
+- Trumpet
+- Drums
+
+### Audio Analysis
+- Frequency spectrum analysis
+- Pitch detection
+- Spectral centroid
+- Zero crossing rate
+- RMS amplitude
+- Spectral rolloff
+
+### Error Handling
+- Comprehensive error logging
+- Graceful failure recovery
+- Detailed error messages
 
 ## Contributing
 

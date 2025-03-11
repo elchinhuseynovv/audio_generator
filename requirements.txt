@@ -5,3 +5,4 @@ speech_recognition
 midiutil
 python-dotenv
 pytest
+pytest-mock
