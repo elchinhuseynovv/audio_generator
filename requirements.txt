@@ -1,0 +1,7 @@
+numpy
+sounddevice
+scipy
+speech_recognition
+midiutil
+python-dotenv
+pytest
